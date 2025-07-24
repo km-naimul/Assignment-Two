@@ -53,7 +53,7 @@ font-size: 45px;}
     max-width: 1140px;
     max-height: 461px;
     margin: 0 auto;
-margin-top: 150px;}
+    margin-top: 150px;}
 
 .banner-content{
         max-width: 570px; max-height: 299px;
@@ -69,6 +69,58 @@ margin-top: 150px;}
     font-size: 22px;
     color: #8987A1;
 }
+
+
 .FRESH-FLOWERS{
         color: #E95A08;
 }
+
+
+/* plant-container-related-styles */
+
+.container{display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.Our-Plants{
+            max-width: 1140px;
+            align-items: center;
+            text-align: center;
+           
+            margin: 150px auto;
+        }
+.flower{
+    max-width: 270px;
+    max-height: 480px;
+}
+
+.plants-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.our{
+    color: #E95A08;
+}
+.plants-description{
+    font-weight: 200;
+    font-size: 22px;
+    max-height: 54px;
+    color: #8987A1;  
+}
+
+.button-add{
+background-color: #E95A08;
+color: white;
+font-weight: 500px;
+font-size: 15px;
+padding: 10px 80px;
+border: none;
+}
+
+.taka{
+    font-weight: bolder;
+    font-size: 16px;
+}
+            
+
