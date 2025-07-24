@@ -6,3 +6,45 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* shared styles */
+    .display-flex{
+        display: flex;
+    }
+    .text-color1{
+        color: black;
+    }
+
+    .text-color2{
+        color: #8987A1;
+    }
+
+    .bg-color{
+        color: rgba(200, 200, 200, 1);
+    }
+/* header styles */
+    .web-name{color: orangered;
+    font-weight: 700px;
+font-size: 45px;}
+
+
+/* navbar related styles */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 48px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar, .banner {
+    max-width: 1140px;
+    margin: 0 auto;
+}
