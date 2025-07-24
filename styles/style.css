@@ -86,8 +86,7 @@ font-size: 45px;}
 .Our-Plants{
             max-width: 1140px;
             align-items: center;
-            text-align: center;
-           
+            text-align: center;   
             margin: 150px auto;
         }
 .flower{
@@ -123,4 +122,39 @@ border: none;
     font-size: 16px;
 }
             
+/* flowers-lovers-related-styles */
+.section-title{
+    font-weight: bold;
+    font-size: 50px;
+}
 
+.section-title-description .flowers-lovers-description{
+font-weight: 250px;
+font-size: 22px;
+color: #8987A1;
+max-width: 540px;
+max-height: 521px;
+gap: 20px;
+
+}
+
+.flowers-lovers{
+    max-width: 1140px;
+    max-height: 597px;
+    margin: 0 auto;
+    margin-top: 150px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;    
+}
+
+.flowers-pic{
+    max-width: 540px;
+    max-height: 571px;
+}
+
+.wrap-logo{
+    margin-top: -700px;
+    margin-left: 545px;
+
+}
