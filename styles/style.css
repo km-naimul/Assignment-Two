@@ -158,3 +158,115 @@ gap: 20px;
     margin-left: 545px;
 
 }
+
+/* deal related style */
+
+.deal-details{
+}
+.deal-name{max-width: 1440px;
+    max-height: 138px;
+    margin: 0 auto;
+    margin-top: 600px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.deal-title{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.latest{
+    color: #E95A08;
+}
+
+.deal-description{
+    font-weight: 200px;
+    font-size: 22px;
+    width: 888px;
+    max-height: 54px;
+    text-align: center;
+    align-items: center;
+    margin-left: 280px;
+    color: #8987A1;
+}
+
+.deal-offer{
+    max-width: 1140px;
+    margin: 0px 180px ;
+    position: absolute;
+    justify-content: space-between;
+    gap: 28px;
+    height: 122% ;
+}
+
+.bloom-ana-plant{
+    height: calc((100% - 5px)/2) ;
+    gap: 10px 20px 30px 40px;
+    display: grid;
+    
+}
+
+.zabo-plant{
+    height: 100%;
+    border-radius: 20px;
+}
+.blomm-plant-text{
+position: absolute;
+    top: 10px;
+    color: rgb(248, 247, 247);
+    padding: 50px;
+}
+.blomm-plant-text h3{
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.ana-plant-text{
+    position: absolute;
+    top: 220px;
+    color: rgb(248, 247, 247);
+    padding: 50px;
+   
+}
+.ana-plant-text h3{
+    
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.zabo-plant-text{
+    position: absolute;
+    top: 0px;
+    color: rgb(248, 247, 247);
+    padding: 140px;
+    
+
+}
+
+.zabo-plant-text h1{
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.bloom-plant{
+    
+    
+}
+
+.shop-now{ font-weight: 500;
+    font-size: 28px;
+    border: none;
+    padding: 2px 2px;
+    
+    background-color: none;
+    background: none;
+    color: white;
+
+}
+
