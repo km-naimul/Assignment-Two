@@ -270,3 +270,49 @@ position: absolute;
 
 }
 
+/* colorful bunch related style */
+.container-one{
+max-width: 1440px;
+max-height: 533px;
+margin: 680px 20px ;
+padding: 0px;
+}
+
+.banner-one{
+    position: relative;
+    width: 100%; margin: 0 auto;
+}
+.banner-one img{ width: 100%;}
+
+.colorful-bunch{
+    color: white; position: absolute; top: 35%; font-size: 50px; font-weight: bold;
+    justify-content: center; align-items: center;
+    width: 100%;  display: flex;
+}
+
+.subscribe-icon{
+    color: white; position: absolute; top: 48%; font-size: 50px; font-weight: bold;
+    justify-content: center; align-items: center;
+    width: 100%;  display: flex; 
+}
+
+.email-box{
+    height: 20px;
+    border-radius: 5px;
+    background-color: white;
+    width: 30%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+.email-button{
+    height: 40px;
+    border-radius: 5px;
+    background-color: #E95A08;
+    width: 10%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    color: white;
+}
