@@ -316,3 +316,34 @@ padding: 0px;
     border: none;
     color: white;
 }
+
+.footer-item{
+    justify-content: space-between;
+    max-width: 1140px;
+    margin:auto ;
+   
+}
+.footer-item-serial{
+    color: gray;
+    font-size: 12px;
+}
+.footer-item-serial-one{
+    color: gray;
+    font-size: 12px;
+}
+.footer-item-img{
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.footer-head{
+    color: #E95A08;
+    font-weight: bold;
+    font-size: 50px;
+    margin: auto;
+}
+
+.footer-description{
+    color: #8987A1;
+}
