@@ -151,6 +151,7 @@ gap: 20px;
 .flowers-pic{
     max-width: 540px;
     max-height: 571px;
+    grid-template-columns: repeat(1, 1fr);
 }
 
 .wrap-logo{
@@ -347,3 +348,43 @@ padding: 0px;
 .footer-description{
     color: #8987A1;
 }
+
+/* Responsive media query */
+@media screen and ( max-width: 576px) {
+    .deal-offer , 
+    .footer-item , 
+    .flowers-lovers , 
+    .banner ,
+    .nav-links , 
+    .navbar 
+    { flex-direction: column;}
+
+    .fresh-flower{
+        
+    }
+
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 70px;    
+    }
+
+    .banner-content{
+        margin-left: 40px;
+    }
+
+    .flowers-pic{
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;  
+    }
+    .deal-details{
+        margin-top: 1200px;
+    }
+
+    .deal-description{
+        margin-left: 0px;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        justify-items: center;
+    }
+} 
