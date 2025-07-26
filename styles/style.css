@@ -381,7 +381,7 @@ grid-template-columns: repeat(1,1fr);
          }
         
     .flower{
-        height: auto;
+        
     }
 
 
@@ -394,7 +394,7 @@ grid-template-columns: repeat(1,1fr);
         margin: auto;  
     }
     .deal-name{
-        margin-top: 1100px;
+        margin-top:650px;
         justify-content: center;
         text-align: center;
         justify-items: center;
